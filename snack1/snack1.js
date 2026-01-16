@@ -7,5 +7,12 @@ const biciclette = [
   { nome: "bici5", peso: 70 },
 ];
 // stampo la bici con peso minore
+let biciLeggera = biciclette[0];
 
-console.log(biciclette[2]);
+for (let bici of biciclette) {
+  if (bici.peso < biciLeggera.peso) {
+    biciLeggera = bici;
+  }
+}
+
+console.log(biciLeggera);
