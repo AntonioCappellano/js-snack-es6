@@ -6,3 +6,6 @@ const biciclette = [
   { nome: "bici4", peso: 40 },
   { nome: "bici5", peso: 70 },
 ];
+// stampo la bici con peso minore
+
+console.log(biciclette[2]);
